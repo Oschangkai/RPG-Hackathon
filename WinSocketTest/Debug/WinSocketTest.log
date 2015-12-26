@@ -1,0 +1,17 @@
+﻿已經開始建置於 2015/12/26 下午 02:45:32。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\KaiYi.C\Documents\GitHub\RPG-Hackathon\WinSocketTest\WinSocketTest.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Downloads\Test.cpp
+         Test.cpp
+     1>c:\users\kaiyi.c\downloads\test.cpp(32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 請參閱 'inet_addr' 的宣告
+     1>c:\users\kaiyi.c\downloads\test.cpp(50): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 請參閱 'inet_ntoa' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KaiYi.C\Documents\GitHub\RPG-Hackathon\WinSocketTest\Debug\WinSocketTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\KaiYi.C\Documents\GitHub\RPG-Hackathon\WinSocketTest\Debug\WinSocketTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\KaiYi.C\Documents\GitHub\RPG-Hackathon\WinSocketTest\Debug\WinSocketTest.lib" /MACHINE:X86 Debug\Test.obj
+         WinSocketTest.vcxproj -> C:\Users\KaiYi.C\Documents\GitHub\RPG-Hackathon\WinSocketTest\Debug\WinSocketTest.exe
+     1>專案 "C:\Users\KaiYi.C\Documents\GitHub\RPG-Hackathon\WinSocketTest\WinSocketTest.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.49
