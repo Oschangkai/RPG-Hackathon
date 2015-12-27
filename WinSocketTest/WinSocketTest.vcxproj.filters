@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Client.cpp">
+    <ClCompile Include="contraller.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
