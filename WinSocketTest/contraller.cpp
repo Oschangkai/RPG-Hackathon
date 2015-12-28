@@ -30,14 +30,7 @@ void writeProc();
 
 void main()
 {
-
-
-
-
-
 	//開始 Winsock-DLL
-
-
 	WSAData wsaData;
 	WORD DLLVersion;
 	DLLVersion = MAKEWORD(2, 1);
@@ -46,8 +39,6 @@ void main()
 
 	//宣告給 socket 使用的 sockadder_in 結構
 	SOCKADDR_IN addr;
-
-
 	int addlen = sizeof(addr);
 
 
@@ -83,17 +74,11 @@ void main()
 			cout << "\nWelcome to TXT War!\nUse \"WASD\" and j to Control\n";
 			int nNetTimeout = 1;//1秒，
 
-
-								//設置接收超時
+			//設置接收超時
 			setsockopt(sConnect, SOL_SOCKET, SO_RCVTIMEO, (char *)&nNetTimeout, sizeof(int));
 
 
 			while (true) {
-
-
-
-
-
 
 				if (kbhit()) {
 					HANDLE writeHandle;
